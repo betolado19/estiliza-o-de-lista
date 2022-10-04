@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Peralta', cursive;
+    font-weight: 300;
+}
+
+ul {
+    list-style-image: url('./imagens/icone.png');
+
+    list-style: square inside url('./imagens/icone.png');
+
+    background-color: slategray;
+}
+
+ol {
+    list-style-image: url('./imagens/icone.png');
+
+    list-style: square inside url('./imagens/icone.png');
+
+    background-color: slategray;
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1px;
+}
+
+
+ol li {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 1px;
+}
